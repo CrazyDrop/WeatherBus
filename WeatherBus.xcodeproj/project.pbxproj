@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE0978715AD49790098E3C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0978615AD49790098E3C4 /* UIKit.framework */; };
+		FCE0978915AD49790098E3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0978815AD49790098E3C4 /* Foundation.framework */; };
+		FCE0978B15AD49790098E3C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0978A15AD49790098E3C4 /* CoreGraphics.framework */; };
+		FCE0979115AD49790098E3C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCE0978F15AD49790098E3C4 /* InfoPlist.strings */; };
+		FCE0979315AD49790098E3C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0979215AD49790098E3C4 /* main.m */; };
+		FCE0979715AD49790098E3C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0979615AD49790098E3C4 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCE0978215AD49790098E3C4 /* WeatherBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE0978615AD49790098E3C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCE0978815AD49790098E3C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCE0978A15AD49790098E3C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCE0978E15AD49790098E3C4 /* WeatherBus-Info.plist */ = {isa = PBXFileReference; path = "WeatherBus-Info.plist"; sourceTree = "<group>"; };
+		FCE0979015AD49790098E3C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCE0979215AD49790098E3C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCE0979415AD49790098E3C4 /* WeatherBus-Prefix.pch */ = {isa = PBXFileReference; path = "WeatherBus-Prefix.pch"; sourceTree = "<group>"; };
+		FCE0979515AD49790098E3C4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCE0979615AD49790098E3C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE0977F15AD49790098E3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE0978715AD49790098E3C4 /* UIKit.framework in Frameworks */,
+				FCE0978915AD49790098E3C4 /* Foundation.framework in Frameworks */,
+				FCE0978B15AD49790098E3C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE0977715AD49790098E3C4 = {
+			isa = PBXGroup;
+			children = (
+				FCE0978C15AD49790098E3C4 /* WeatherBus */,
+				FCE0978515AD49790098E3C4 /* Frameworks */,
+				FCE0978315AD49790098E3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE0978315AD49790098E3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE0978215AD49790098E3C4 /* WeatherBus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE0978515AD49790098E3C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE0978615AD49790098E3C4 /* UIKit.framework */,
+				FCE0978815AD49790098E3C4 /* Foundation.framework */,
+				FCE0978A15AD49790098E3C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE0978C15AD49790098E3C4 /* WeatherBus */ = {
+			isa = PBXGroup;
+			children = (
+				FCE0979515AD49790098E3C4 /* AppDelegate.h */,
+				FCE0979615AD49790098E3C4 /* AppDelegate.m */,
+				FCE0978D15AD49790098E3C4 /* Supporting Files */,
+			);
+			path = WeatherBus;
+			sourceTree = "<group>";
+		};
+		FCE0978D15AD49790098E3C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE0978E15AD49790098E3C4 /* WeatherBus-Info.plist */,
+				FCE0978F15AD49790098E3C4 /* InfoPlist.strings */,
+				FCE0979215AD49790098E3C4 /* main.m */,
+				FCE0979415AD49790098E3C4 /* WeatherBus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE0978115AD49790098E3C4 /* WeatherBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE0979A15AD49790098E3C4 /* Build configuration list for PBXNativeTarget "WeatherBus" */;
+			buildPhases = (
+				FCE0977E15AD49790098E3C4 /* Sources */,
+				FCE0977F15AD49790098E3C4 /* Frameworks */,
+				FCE0978015AD49790098E3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherBus;
+			productName = WeatherBus;
+			productReference = FCE0978215AD49790098E3C4 /* WeatherBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE0977915AD49790098E3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FCE0977C15AD49790098E3C4 /* Build configuration list for PBXProject "WeatherBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCE0977715AD49790098E3C4;
+			productRefGroup = FCE0978315AD49790098E3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE0978115AD49790098E3C4 /* WeatherBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE0978015AD49790098E3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE0979115AD49790098E3C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE0977E15AD49790098E3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE0979315AD49790098E3C4 /* main.m in Sources */,
+				FCE0979715AD49790098E3C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCE0978F15AD49790098E3C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE0979015AD49790098E3C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE0979815AD49790098E3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCE0979915AD49790098E3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE0979B15AD49790098E3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBus/WeatherBus-Prefix.pch";
+				INFOPLIST_FILE = "WeatherBus/WeatherBus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCE0979C15AD49790098E3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherBus/WeatherBus-Prefix.pch";
+				INFOPLIST_FILE = "WeatherBus/WeatherBus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE0977C15AD49790098E3C4 /* Build configuration list for PBXProject "WeatherBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE0979815AD49790098E3C4 /* Debug */,
+				FCE0979915AD49790098E3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE0979A15AD49790098E3C4 /* Build configuration list for PBXNativeTarget "WeatherBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE0979B15AD49790098E3C4 /* Debug */,
+				FCE0979C15AD49790098E3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE0977915AD49790098E3C4 /* Project object */;
+}
